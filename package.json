@@ -1,0 +1,63 @@
+{
+  "name": "@agentoracle/receipt-verify",
+  "version": "0.3.0",
+  "description": "Offline verifier for AgentOracle JWS verification receipts. Verify the gate decision was correctly derived from signed inputs under a named, immutable mapping — without trusting the issuer's runtime.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./mappings": {
+      "import": "./dist/mappings.js",
+      "types": "./dist/mappings.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "agentoracle",
+    "verification",
+    "receipts",
+    "jws",
+    "ai-agents",
+    "verify",
+    "offline-verifiable",
+    "agent-economy",
+    "explainability",
+    "cryptographic-receipts",
+    "audit-trail",
+    "compliance"
+  ],
+  "author": "TKCollective",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TKCollective/agentoracle-receipt-verify"
+  },
+  "homepage": "https://agentoracle.co",
+  "bugs": {
+    "url": "https://github.com/TKCollective/agentoracle-receipt-verify/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jose": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
