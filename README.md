@@ -1,3 +1,5 @@
+> **Archived, September 2026.** Superseded by [tanilo-receipt-verify](https://github.com/TKCollective/tanilo-receipt-verify) (PyPI `tanilo-receipt-verify`, 0.1.1). This repository holds the history of `agentoracle-receipt-verify` 0.1.0 and receives no further updates; the published 0.1.0 package is unchanged.
+
 # @agentoracle/receipt-verify
 
 [![npm](https://img.shields.io/npm/v/@agentoracle/receipt-verify)](https://www.npmjs.com/package/@agentoracle/receipt-verify)
